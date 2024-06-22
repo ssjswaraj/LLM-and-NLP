@@ -1,9 +1,8 @@
-### Project Title: Fine-Tuning and Quantization of Gemma 7B for Quote Generation
+### Fine-Tuning and Quantization of Gemma 7B for Quote Generation
 
-### Project Description:
-This project focuses on enhancing the efficiency and performance of the Gemma 7B model for generating quotes through fine-tuning and quantization techniques. The Gemma 7B model, known for its advanced capabilities in language modeling, will be optimized using state-of-the-art tools and methodologies.
+**Project Description:**
+This project focuses on enhancing the efficiency and performance of the Gemma 7B model for generating quotes through fine-tuning and quantization techniques.
 
-**Overview:**
 The project leverages cutting-edge libraries and frameworks such as Transformers, BitsAndBytes, Peft, trl, and Accelerate to fine-tune and quantize the Gemma 7B model. The model is initially quantized using bfloat16 for computation and 4-bit quantization for model parameters, aiming to reduce memory usage and improve inference speed without compromising accuracy.
 
 **Key Steps:**
