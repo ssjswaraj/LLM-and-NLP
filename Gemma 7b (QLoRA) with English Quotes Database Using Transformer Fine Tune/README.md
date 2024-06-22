@@ -12,7 +12,7 @@ The project leverages libraries and frameworks such as Transformers, BitsAndByte
 
 3. **Data Preparation:** Utilize datasets from 'Abirate/english_quotes' to prepare the Gemma 7B model for fine-tuning. The dataset is preprocessed and formatted using appropriate tokenization techniques.
 
-4. **LoRA Configuration:** Configure LoRA (Low-Rank Attention) settings for fine-tuning, targeting critical modules within the Gemma 7B LM architecture for optimal training.
+4. **LoRA Configuration:** Configure LoRA (Low-Rank Attention) settings for fine-tuning, targeting critical modules within the Gemma 7B LM architecture for optimal training. To read about [LoRA](https://www.kaggle.com/code/lorentzyeung/what-s-4-bit-quantization-how-does-it-help-llama2s)
 
 5. **Fine-Tuning:** Employ SFTTrainer to fine-tune the Gemma 7B model on the quote dataset, utilizing a custom formatting function to enhance model comprehension and generation quality.
 
