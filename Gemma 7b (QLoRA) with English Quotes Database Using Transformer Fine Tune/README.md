@@ -1,4 +1,4 @@
-### Fine-Tuning and Quantization of Gemma 7B for Quote Generation
+### Fine-Tuning and Quantization of Gemma 7B for Quote Generation Using QLoRA
 
 **Project Description:**
 This project focuses on enhancing the efficiency and performance of the Gemma 7B model for generating quotes through fine-tuning and quantization techniques.
