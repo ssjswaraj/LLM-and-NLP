@@ -20,13 +20,9 @@ This project focuses on the implementation and optimization of the Llama 2 Chat 
 4. **Implement LoRA**:
    - Integrate the LoRA technique to fine-tune the pre-trained model. This involves adapting the weights of the model using low-rank matrix factorization, which enhances the model's adaptability with minimal additional parameters.
 
-5. **Set Up Training Arguments**:
-   - Define training arguments, including parameters such as learning rate, batch size, number of epochs, and logging steps.
-
-6. **Initialize Trainer**:
+5. **Train the Model**:
    - Use the `Trainer` class to initialize a trainer with the quantized and LoRA-adapted model, training arguments, and tokenized dataset.
-
-7. **Train the Model**:
+   - Define training arguments, including parameters such as learning rate, batch size, number of epochs, and logging steps.
    - Train the model using the `train` method of the `Trainer` class.
    - Generate responses using the trained model.
 
