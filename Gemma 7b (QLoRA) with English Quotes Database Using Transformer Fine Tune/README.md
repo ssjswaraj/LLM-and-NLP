@@ -4,7 +4,6 @@
 This project focuses on enhancing the efficiency and performance of the Gemma 7B model for generating quotes through fine-tuning and quantization techniques.
 
 The project leverages libraries and frameworks such as Transformers, BitsAndBytes, Peft, trl, and Accelerate to fine-tune and quantize the Gemma 7B model. The model is initially quantized using 4-bit quantization for model parameters, aiming to reduce memory usage and improve inference speed without compromising accuracy.
-To read about [LoRA](https://www.kaggle.com/code/lorentzyeung/what-s-4-bit-quantization-how-does-it-help-llama2s)
 
 **Key Steps:**
 1. **Initialization and Quantization:** Initialize the Gemma 7B model with quantization configurations to achieve optimized inference. This involves setting up the model with specific quantization types and compute data types.
